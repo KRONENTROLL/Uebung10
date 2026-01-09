@@ -1,11 +1,11 @@
 package h1;
 
 public class Cell {
-    int indexRow;
-    int indexCol;
-    boolean alive;
-    int numLivingNeighbors;
-    boolean isAliveNextGen;
+    private int indexRow;
+    private int indexCol;
+    private boolean alive;
+    private int numLivingNeighbors;
+    private boolean isAliveNextGen;
 
 
     public int getIndexRow() {
